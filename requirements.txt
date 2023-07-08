@@ -1,0 +1,4 @@
+streamlit
+Pillow
+pathlib2
+webbrowser
