@@ -76,7 +76,7 @@ Overall, through the integration of the TMDB API, Python libraries such as panda
                 """)
     if st.button("College admission predictio System"):
         
-        link = "https://kalehariprasad-movie-recommendatios-app2-bgkvok.streamlit.app/"
+        link = "https://kalehariprasad-college-predictions-app-utbfvp.streamlit.app/"
         st.markdown(f'<a href="{link}" target="_blank">College admission prediction System</a>', unsafe_allow_html=True)
 
   
