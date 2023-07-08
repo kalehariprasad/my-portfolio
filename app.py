@@ -160,10 +160,8 @@ def Experience():
                 
 def Resume ():
     st.title("Resume")
-    with open('Resume  June 2023 _2.pdf', 'rb') as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    link ="https://drive.google.com/file/d/1rZNlaBwXU4IVYz0OaWYDC8qE2-nffZb1/view?usp=sharing"
+    st.markdown(f'<a href="{link}" target="_blank"> Resueme </a>', unsafe_allow_html=True)
 
 
 
