@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 def home():
-    st.title("Welcome to My Portfolio")
+    st.title("kale hari prasad")
     image=Image.open('image.jpg')
     st.image(image,width=200,)
     st.markdown("""
@@ -161,7 +161,7 @@ def Experience():
 def Resume ():
     st.title("Resume")
     link ="https://drive.google.com/file/d/1rZNlaBwXU4IVYz0OaWYDC8qE2-nffZb1/view?usp=sharing"
-    st.markdown(f'<a href="{link}" target="_blank"> Resueme </a>', unsafe_allow_html=True)
+    st.markdown(f'<a href="{link}" target="_blank"> Resume </a>', unsafe_allow_html=True)
 
 
 
