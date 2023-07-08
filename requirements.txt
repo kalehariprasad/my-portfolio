@@ -1,4 +1,4 @@
 Pillow==9.4.0
 streamlit==1.2.0
 pathlib2
-webbrowser
+
