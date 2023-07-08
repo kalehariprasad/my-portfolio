@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import base64
 from pathlib import Path
-import webbrowser
+
 # Page functions
 
 
@@ -39,9 +39,9 @@ Overall, through the integration of the TMDB API, Python libraries such as panda
                 
                 
                 """)
-    if st.button('open promotion prediction'):
-        link = "https://kalehariprasad-employee-promotion-predictions-app-7x6ya6.streamlit.app/"
-        webbrowser.open_new_tab(link)
+    if st.button('Open Promotion Prediction'):
+         link = "https://kalehariprasad-employee-promotion-predictions-app-7x6ya6.streamlit.app/"
+         st.markdown(f'<a href="{link}" target="_blank">Open Promotion Prediction</a>', unsafe_allow_html=True)
         
 
         
@@ -59,9 +59,10 @@ Overall, through the integration of the TMDB API, Python libraries such as panda
 
                 Overall, through the integration of the TMDB API, Python libraries such as pandas and NumPy for data manipulation, and scikit-learn for similarity calculations, I successfully developed a powerful movie recommendation system. This system allowed users to discover new movies based on the similarities between their features, providing an enhanced movie-watching experience.
                 """)
-    if st.button("open movie Recommendation system"):
-        link="https://kalehariprasad-movie-recommendatios-app2-bgkvok.streamlit.app/"
-        webbrowser.open_new_tab(link)
+    if st.button("Open Movie Recommendation System"):
+       link = "https://kalehariprasad-movie-recommendatios-app2-bgkvok.streamlit.app/"
+       st.markdown(f'<a href="{link}" target="_blank">Open Movie Recommendation System</a>', unsafe_allow_html=True)
+
     
     st.header("College admission prediction system")
     st.markdown("""
@@ -73,9 +74,11 @@ Overall, through the integration of the TMDB API, Python libraries such as panda
 
                 Throughout the development process, I approached the project with great care and attention to detail. I focused on implementing essential data preprocessing techniques, deploying the model using Streamlit Cloud, and leveraging scikit-learn pipelines to optimize the workflow. By devoting my expertise and efforts to the project, I successfully developed a robust model that accurately predicted student admission. The final solution provided valuable insights for decision-making in student admissions, catering to the requirements of the project in a comprehensive manner.
                 """)
-    if st.button("open admission prediction system"):
-        link="https://kalehariprasad-college-predictions-app-utbfvp.streamlit.app/"
-        webbrowser.open_new_tab(link)
+    if st.button("College admission predictio System"):
+        
+        link = "https://kalehariprasad-movie-recommendatios-app2-bgkvok.streamlit.app/"
+        st.markdown(f'<a href="{link}" target="_blank">College admission prediction System</a>', unsafe_allow_html=True)
+
   
                 
     st.title('Logistics price prediction')
@@ -91,8 +94,9 @@ Overall, through the integration of the TMDB API, Python libraries such as panda
                
     if st.button('open logistic price prediction'):
         link= "https://kalehariprasad-logistics-price-prediction-app1-m8w5oi.streamlit.app/"
-        webbrowser.open_new_tab(link)
-       
+        st.markdown(f'<a href="{link}" target="_blank">logistic price prediction</a>', unsafe_allow_html=True)
+
+  
 def Education ():
     st.title("Education")
     st.subheader('B.tech')
@@ -136,7 +140,8 @@ def Experience():
                 """)
     if st.button("Oasis infoByte certificate"):
         link="https://drive.google.com/file/d/1e1pDzdhNCRJ5eLQxA0ZIEv_6lnFuYMFy/view?usp=sharing"
-        webbrowser.open_new_tab(link)
+        st.markdown(f'<a href="{link}" target="_blank">Oasis infoByte certificate</a>', unsafe_allow_html=True)
+
     st.subheader("Project Intern - iNeuron. AI")
     st.markdown("""
                 In my role as a Data Scientist project intern, I have played a crucial role in conducting thorough data cleaning, preprocessing, and analysis. By meticulously cleaning and preparing the data, I ensured its quality and reliability, laying the foundation for the development of accurate and robust machine learning models. Through exploratory data analysis (EDA), I gained valuable insights into the data, identifying patterns and trends that informed the subsequent modeling process.
@@ -149,7 +154,7 @@ def Experience():
                 """)
     if st.button("iNeuron. AI certificate"):
         link="https://drive.google.com/file/d/1e6Kmbh3wXSZ2YDHinr1FyHnQ5N8pvfdE/view?usp=sharing"
-        webbrowser.open_new_tab(link)
+        st.markdown(f'<a href="{link}" target="_blank">iNeuron. AI certificate</a>', unsafe_allow_html=True)
                 
                 
                 
@@ -171,7 +176,7 @@ def certification():
                 """)
     if st.button("show credential"):
         link="https://drive.google.com/file/d/1ZcoQpNAHQ3RF57djmdSuR0_ttup2DwdL/view?usp=sharing"
-        webbrowser.open_new_tab(link)
+        st.markdown(f'<a href="{link}" target="_blank"> certificate</a>', unsafe_allow_html=True)
 def skills():
     st.title("skils")
     st.subheader("Programing Langauges")
@@ -229,3 +234,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
