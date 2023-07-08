@@ -160,12 +160,11 @@ def Experience():
                 
 def Resume ():
     st.title("Resume")
-    def show_pdf(file_path):
-            with open('Resume  June 2023 _2.pdf',"rb") as f:
-                  base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-            pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
-            st.markdown(pdf_display, unsafe_allow_html=True)
-    st.write(show_pdf("Kale Hari Prasad Resume .pdf"))
+    with open('Resume  June 2023 _2.pdf', 'rb') as f:
+        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+    pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
+    st.markdown(pdf_display, unsafe_allow_html=True)
+
 
 
 
