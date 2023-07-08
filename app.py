@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 def home():
-    st.title("kale hari prasad")
+    st.title("kale Hari Prasad")
     image=Image.open('image.jpg')
     st.image(image,width=200,)
     st.markdown("""
