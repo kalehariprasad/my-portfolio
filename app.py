@@ -27,6 +27,7 @@ def projects():
     st.title("Projects")
     st.header('Employee promotion prediction')
     st.markdown(""""
+    
                 successfully developed a promotion prediction model that exhibits an exceptional level of accuracy, achieving an impressive 92% prediction accuracy. To enhance the performance of the model, I utilized scikit-learn pipelines and the SMOTENC library, which effectively handled the issue of imbalanced data. By addressing this challenge, I ensured that the model could make accurate predictions across different classes, resulting in improved overall performance.
 
 In addition to focusing on the technical aspects of the model, I also paid careful attention to the user experience. To showcase the promotion prediction model, I developed a user-friendly web application using Streamlit. This web app serves as a practical demonstration of the model, allowing users to easily access and interact with the prediction results regarding the likelihood of promotion.
@@ -44,7 +45,7 @@ Throughout the development process, I adhered to best practices in data preproce
                 
     st.header("Movie Recommendations system")
     st.markdown("""
-                I worked diligently to develop a Python-based movie recommendation system by leveraging the TMDB API. The first step involved collecting comprehensive movie data from the API, including titles, genres, posters, and cast information. This rich dataset served as the foundation for our recommendation system, ensuring a diverse and extensive collection of movies to work with.
+                worked diligently to develop a Python-based movie recommendation system by leveraging the TMDB API. The first step involved collecting comprehensive movie data from the API, including titles, genres, posters, and cast information. This rich dataset served as the foundation for our recommendation system, ensuring a diverse and extensive collection of movies to work with.
 
                 To efficiently manipulate and analyze the movie data, I utilized popular libraries such as pandas and NumPy. These libraries provided powerful tools for data manipulation, enabling us to preprocess and organize the movie features effectively. By leveraging these tools, I ensured that the data was in a suitable format for further analysis and recommendation generation.
 
@@ -61,7 +62,7 @@ Throughout the development process, I adhered to best practices in data preproce
     
     st.header("College admission prediction system")
     st.markdown("""
-                I embarked on the development of a machine learning model to accurately predict student admission, working diligently on the project. The first step was to implement essential data preprocessing techniques to ensure the quality and reliability of the data. I performed feature scaling to eliminate any potential bias that could arise from varying scales of input variables. Additionally, I employed imputation techniques to handle missing data, ensuring that valuable information was not lost during the modeling process.
+                embarked on the development of a machine learning model to accurately predict student admission, working diligently on the project. The first step was to implement essential data preprocessing techniques to ensure the quality and reliability of the data. I performed feature scaling to eliminate any potential bias that could arise from varying scales of input variables. Additionally, I employed imputation techniques to handle missing data, ensuring that valuable information was not lost during the modeling process.
 
                 To provide seamless accessibility to the application, I deployed the model using Streamlit Cloud. This deployment platform facilitated an intuitive web interface that allowed users to easily interact with the application. Leveraging Streamlit Cloud's capabilities, I ensured that the model was readily accessible to a wide range of users, providing a user-friendly and convenient experience.
 
