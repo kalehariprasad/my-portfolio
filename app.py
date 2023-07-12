@@ -27,8 +27,8 @@ def projects():
     st.title("Projects")
     st.header('Employee promotion prediction')
     st.markdown(""""
-    
-                successfully developed a promotion prediction model that exhibits an exceptional level of accuracy, achieving an impressive 92% prediction accuracy. To enhance the performance of the model, I utilized scikit-learn pipelines and the SMOTENC library, which effectively handled the issue of imbalanced data. By addressing this challenge, I ensured that the model could make accurate predictions across different classes, resulting in improved overall performance.
+   
+   successfully developed a promotion prediction model that exhibits an exceptional level of accuracy, achieving an impressive 92% prediction accuracy. To enhance the performance of the model, I utilized scikit-learn pipelines and the SMOTENC library, which effectively handled the issue of imbalanced data. By addressing this challenge, I ensured that the model could make accurate predictions across different classes, resulting in improved overall performance.
 
 In addition to focusing on the technical aspects of the model, I also paid careful attention to the user experience. To showcase the promotion prediction model, I developed a user-friendly web application using Streamlit. This web app serves as a practical demonstration of the model, allowing users to easily access and interact with the prediction results regarding the likelihood of promotion.
 
