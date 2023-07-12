@@ -27,16 +27,11 @@ def projects():
     st.title("Projects")
     st.header('Employee promotion prediction')
     st.markdown(""""
-                I worked diligently to develop a Python-based movie recommendation system by leveraging the TMDB API. The first step involved collecting comprehensive movie data from the API, including titles, genres, posters, and cast information. This rich dataset served as the foundation for our recommendation system, ensuring a diverse and extensive collection of movies to work with.
+                successfully developed a promotion prediction model that exhibits an exceptional level of accuracy, achieving an impressive 92% prediction accuracy. To enhance the performance of the model, I utilized scikit-learn pipelines and the SMOTENC library, which effectively handled the issue of imbalanced data. By addressing this challenge, I ensured that the model could make accurate predictions across different classes, resulting in improved overall performance.
 
-To efficiently manipulate and analyze the movie data, I utilized popular libraries such as pandas and NumPy. These libraries provided powerful tools for data manipulation, enabling us to preprocess and organize the movie features effectively. By leveraging these tools, I ensured that the data was in a suitable format for further analysis and recommendation generation.
+In addition to focusing on the technical aspects of the model, I also paid careful attention to the user experience. To showcase the promotion prediction model, I developed a user-friendly web application using Streamlit. This web app serves as a practical demonstration of the model, allowing users to easily access and interact with the prediction results regarding the likelihood of promotion.
 
-For the recommendation algorithm, I employed scikit-learn, a widely-used machine learning library. Using scikit-learn, I calculated similarity measures between movies based on their respective features. In particular, I utilized cosine similarity to determine the similarity between movies, considering factors such as genre, cast, and other relevant attributes. This allowed the system to identify and suggest similar movies based on their feature similarities.
-
-The developed recommendation system enabled users to receive movie suggestions based on their preferences. By analyzing the comprehensive movie data collected from the TMDB API and leveraging efficient data manipulation techniques, the system was able to generate accurate and relevant recommendations. The cosine similarity calculations facilitated a robust and effective recommendation process, ensuring that users received suggestions that closely matched their interests.
-
-Overall, through the integration of the TMDB API, Python libraries such as pandas and NumPy for data manipulation, and scikit-learn for similarity calculations, I successfully developed a powerful movie recommendation system. This system allowed users to discover new movies based on the similarities between their features, providing an enhanced movie-watching experience.
-                
+Throughout the development process, I adhered to best practices in data preprocessing, model training, and model evaluation. By following these industry-standard practices, I ensured the highest possible prediction accuracy. The data preprocessing stage involved cleaning, transforming, and encoding the data to prepare it for training. During model training, I used appropriate algorithms and techniques to optimize the model's performance. Finally, for model evaluation, I employed various metrics and validation techniques to assess the model's accuracy and generalizability.
                 
                 """)
     if st.button('Open Promotion Prediction'):
